@@ -10,7 +10,7 @@ class GeneratePDF {
         this.definition = {
             info: {
                 title: 'Vue Resume',
-                author: 'Jesse Luo'
+                author: this.author
             },
             pageSize: 'A4',
             pages: 1,
